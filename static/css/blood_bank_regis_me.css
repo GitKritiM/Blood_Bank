@@ -1,0 +1,12 @@
+.red{
+    background-color: rgb(196, 15, 15);
+    color: white;
+    display: flex;
+    
+}
+.nav1{
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    
+}

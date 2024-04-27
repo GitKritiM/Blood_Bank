@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(245, 223, 223);
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    margin:auto 5px;
+}
+.red{
+    background-color: rgb(196, 15, 15);
+    color: white;
+    display: flex;  
+}
+.nav1{
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    
+}
+ .abc{
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:rgb(211, 9, 9);
+} 
+.wid_img{
+    width: 1700px;
+    height: 600px;
+}
+.boxes{
+    display: flex;
+}
+.minbox h1{
+    border:8px solid rgb(211, 9, 9);
+    color: white;
+    text-align: center;
+    margin: 3px;
+    padding: 4px;
+    font-size: 2rem;
+    background-color: rgb(211, 9, 9);
+}
+.minbox{
+    margin: auto;
+    border: 2px solid rgb(128, 128, 128) ;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+}
+.minbox img{
+    width: 290px;
+    margin: auto 3px;
+    height: 280px;
+}
+#box1{
+    margin-right: 0px;
+}
+#box2{
+    margin-left: 6px;
+    margin-right: 0px;
+}
+#box3{
+    margin-left: 6px;
+}
+.user{
+    margin: auto;
+  width: 75%;
+  
+  padding: 1px;
+  background-color: rgb(245, 223, 223);
+  text-align: center;
+}
+.date{
+    margin: auto;
+  width: 75%;
+  
+  padding: 0.2px;
+  background-color: rgb(245, 223, 223);
+  text-align: right;
+}
+.message{
+    margin: auto;
+  width: 75%;
+  
+  padding: 8px;
+  background-color: rgba(247, 96, 96, 0.609);
+  text-align: center;
+}
+
+.title{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  width: 35%;
+  border: 3px solid rgba(247, 96, 96, 0.609);
+  padding: 8px;
+  background-color: rgba(247, 96, 96, 0.609);
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.links{
+    margin: auto;
+    align-items: center;
+  width: 30%;
+  border: 3px solid white;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+.btn btn-secondary{
+    margin: 5px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 75%;
+    height: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+.styled-table thead tr {
+    background-color: rgba(247, 96, 96, 0.609);
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgba(247, 96, 96, 0.609);
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: rgba(247, 96, 96, 0.609);
+    align-items: center;
+    text-align: center;
+}
+.tablebox{
+    align-items: center;
+}
